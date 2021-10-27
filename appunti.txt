@@ -1,0 +1,21 @@
+1) git init = per creare il file git
+2) Bisogna configurare git con email ecc:
+- git config --local(oppure global) user.name "Manuel"
+- git config --local(oppure global) user.email "manuel...."
+3) git status = per vedere la situazione dei nostri file git
+4) git add nome_file = aggiunge i file al repository
+5) se vogliamo invece togliere un file dal repository:
+- git rm --cached nome_file
+6) per aggiungere tutti i file al repository:
+- git add .
+7) Adesso si può fare il commit:
+Diversi modi:
+- git commit (piggiare i e poi inserire il mess riguardante cosa è stato modificato, poi ESC, poi :wq)
+- git commit -m "aggiunto qualche cosa"
+8) Dopo aver modificato un file si puo fare in modo di cancellare le modifiche effettuate:
+- git restore nome_file
+9) Branches:
+- git branch = ci fa vedere i branch presenti
+- git branch nome_branch = per creare una nuova branch
+- git checkout nome_branch = per passare alla nuova branch
+10) git merge nome_branch1 = unisce i file dei due branch
