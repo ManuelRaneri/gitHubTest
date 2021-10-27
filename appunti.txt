@@ -19,3 +19,4 @@ Diversi modi:
 - git branch nome_branch = per creare una nuova branch
 - git checkout nome_branch = per passare alla nuova branch
 10) git merge nome_branch1 = unisce i file dei due branch
+
